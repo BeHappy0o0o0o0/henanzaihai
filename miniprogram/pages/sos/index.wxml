@@ -1,0 +1,47 @@
+<!-- 背景色块 -->
+<view class="head_info">
+  <view class="text-font">
+    <view class="text-center">请如实填写您所需要的帮助</view>
+  </view>
+</view>
+<van-cell-group>
+  <van-field label="物品名称:" value="{{ name }}" data-name="name" placeholder="请简单描述所需要的帮助内容" border="{{ false }}" bind:change="fieldChange" />
+  <van-field label="姓名:" value="{{ codename }}" data-name="codename" placeholder="如何称呼您，请输入它" border="{{ false }}" bind:change="fieldChange" />
+  <van-field label="手机号:" value="{{ phone }}" data-name="phone" placeholder="三项联系方式，填写一项即可" border="{{ false }}" bind:change="fieldChange" />
+  <van-field label="qq号:" value="{{ qq }}" data-name="qq" placeholder="三项联系方式，填写一项即可" border="{{ false }}" bind:change="fieldChange" />
+  <van-field label="微信号:" value="{{ wx }}" data-name="wx" placeholder="三项联系方式，填写一项即可" border="{{ false }}" bind:change="fieldChange" />
+  <view class='toolbar' catchtouchend="format">
+    <i class="iconfont icon-zitijiacu {{formats.bold ? 'ql-active' : ''}}" data-name="bold"></i>
+    <i class="iconfont icon-zuoduiqi {{formats.align === 'left' ? 'ql-active' : ''}}" data-name="align"
+      data-value="left"></i>
+    <i class="iconfont icon-juzhongduiqi {{formats.align === 'center' ? 'ql-active' : ''}}" data-name="align"
+      data-value="center"></i>
+    <i class="iconfont icon-youduiqi {{formats.align === 'right' ? 'ql-active' : ''}}" data-name="align"
+      data-value="right"></i>
+    <i class="iconfont icon-zuoyouduiqi {{formats.align === 'justify' ? 'ql-active' : ''}}" data-name="align"
+      data-value="justify"></i>
+    <i class="iconfont icon-youxupailie {{formats.list === 'ordered' ? 'ql-active' : ''}}" data-name="list"
+      data-value="ordered"></i>
+    <i class="iconfont icon-wuxupailie {{formats.list === 'bullet' ? 'ql-active' : ''}}" data-name="list"
+      data-value="bullet"></i>
+    <i class="iconfont icon-undo" bindtap="undo"></i>
+    <i class="iconfont icon-redo" bindtap="redo"></i>
+    <i class="iconfont icon-shanchu" bindtap="clear"></i>
+  </view>
+  <editor id="editora" bindready="ready" bindinput="sosEditorFieldChange" class="ql-container"
+    placeholder="请详细描述所需要的帮助，比如所需物品，名称，数量等或者其他所需要的帮助内容，......">
+  </editor>
+</van-cell-group>
+<view class="btn-margin-top all">
+  <van-row gutter="15">
+    <van-col span="12">
+      <van-button round type="default" custom-class="btn-width" bind:click="sosCancel">取消</van-button>
+    </van-col>
+    <van-col span="12">
+      <van-button hairline round color="#f6c2e5" custom-class="btn-width" bind:click="submit">提交</van-button>
+    </van-col>
+  </van-row>
+</view>
+
+<van-dialog id="van-dialog" confirm-button-color="#f6c2e5"/>
+<van-toast id="van-toast" />

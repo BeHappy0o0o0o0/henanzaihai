@@ -1,0 +1,66 @@
+page {
+  background: #fdeeec;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card_box {
+  width: 100%;
+}
+
+/* 卡片 */
+.card {
+  margin-top: 40rpx;
+  width: 345rpx;
+  height: 400rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  float: left;
+}
+.create_group {
+  font-weight: bold;
+  text-align: center;
+  height: 400rpx;
+  border-radius: 30rpx;
+  background-color: white;
+}
+
+.create_group_mini {
+  position: relative;
+  top: 50rpx;
+}
+
+.game_group_title {
+  margin-left: 40rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+}
+
+.game_group_title>text {
+  font-weight: bolder;
+  color: black;
+  opacity: 0.7;
+}
+
+.game_scroll {
+  margin-top: 40rpx;
+  white-space: nowrap
+}
+.anquan_list {
+  margin-left: 40rpx;
+  width: 670rpx !important;
+  background-color: transparent !important;
+}
+
+.user_box_mini {
+  margin-top: 25rpx;
+  width: 700rpx;
+  height: auto;
+  border-radius: 100rpx !important;
+  background-color: white;
+  margin:0 auto;
+  opacity: 0.8;
+  padding-top: 80rpx;
+  padding-bottom: 80rpx;
+  box-shadow:0 0 0rpx 1rpx #F5FFFA;  
+}

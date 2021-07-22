@@ -1,0 +1,15 @@
+{
+  "name": "henanzaihai",
+  "version": "1.0.0",
+  "description": "河南灾害小程序，为灾害发生后发生的问题提供一个平台，期望能减少信息交流的成本。",
+  "main": "index.js",
+  "dependencies": {
+    "@vant/weapp": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

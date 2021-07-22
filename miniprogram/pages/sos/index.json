@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "van-field": "@vant/weapp/field/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-toast": "@vant/weapp/toast/index"
+  },
+  "navigationBarBackgroundColor": "#f6c2e5",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "寻求帮助登记"
+}

@@ -1,0 +1,60 @@
+@import "../../style/iconfont.wxss";
+@import "../../style/cus_editor.wxss";
+page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.head_info {
+  background: #b2dfda;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  padding-bottom: 30rpx;
+  padding-top: 20rpx;
+}
+.text-font {
+  font-size: 30rpx;
+  font-weight: bolder;
+}
+.text-center {
+  text-align: center;
+}
+/* 富文本编辑器 */
+.toolbar {
+  margin-top: 25rpx;
+  /* padding: 24rpx; */
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 0;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+}
+.toolbar > i {
+  float: left;
+  width: 10%;
+}
+/* 重写ql */
+.ql-container {
+  box-sizing: border-box;
+  border: 6rpx solid #f8f8f8;
+  background-color: #fff;
+  border-radius: 16rpx;
+  width: calc(100% - 40rpx);
+  font-size: 28rpx;
+  margin-top: 80rpx;
+  color: #000;
+}
+.btn-margin-top {
+  margin-top: 40rpx;
+  text-align: center;
+}
+.btn-margin-bottom {
+  margin-bottom: 40rpx;
+}
+.all {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.btn-width {
+  width: 100%;
+}

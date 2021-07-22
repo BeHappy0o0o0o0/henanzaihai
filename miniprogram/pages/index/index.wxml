@@ -1,0 +1,51 @@
+<van-notice-bar color="" left-icon="volume-o" text="众志成城，共抗灾害。" />
+<view class="game_scroll">
+  <view class="card_box">
+    <!-- 创建按钮 -->
+    <view class="card create_group" bindtap="toShiWu">
+      <view class="create_group_mini">
+        <van-icon size="200rpx" name="friends-o" />
+        <view>失物挂失/寻主</view>
+      </view>
+    </view>
+    <!-- 举报处理按钮 -->
+    <view class="card create_group" bindtap="toHelp">
+      <view class="create_group_mini">
+        <van-icon size="200rpx" name="records" />
+        <view>寻求帮助</view>
+      </view>
+    </view>
+    <!-- 失物挂失列表 -->
+    <view class="card create_group" bindtap="">
+      <view class="create_group_mini">
+        <van-icon size="200rpx" name="notes-o" />
+        <view>失物挂失/寻主列表</view>
+      </view>
+    </view>
+    <!-- 帮助列表 -->
+    <view class="card create_group" bindtap="">
+      <view class="create_group_mini">
+        <van-icon size="200rpx" name="notes-o" />
+        <view>帮助列表</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="game_scroll">
+  <view class="game_group_title">
+    <text>灾害安全知识</text>
+  </view>
+  <view class="user_box_mini">
+    <van-cell-group>
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+      <van-cell custom-class="anquan_list" title="安全用水" border="{{ false }}" is-link />
+    </van-cell-group>
+  </view>
+</view>

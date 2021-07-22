@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-notice-bar": "@vant/weapp/notice-bar/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index"
+  },
+  "navigationBarBackgroundColor": "#fdeeec", 
+  "navigationBarTextStyle": "black"
+}

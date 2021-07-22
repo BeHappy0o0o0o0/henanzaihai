@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/register/index",
+          "pathName": "pages/register/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sos/index",
+          "pathName": "pages/sos/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
